@@ -7,13 +7,20 @@ It handles correctly ’ (single quote) and " (double quote), also redirections 
 Pipes are implemented and working, also $? and environment variables.
 ctrl-C, ctrl-D and ctrl-\ are behaving correctly.
 
-Following commands work:/n
-◦ echo with option -n /n
-◦ cd with only a relative or absolute path /n
-◦ pwd with no options /n
-◦ export with no options /n
-◦ unset with no options /n
-◦ env with no options or arguments /n
-◦ exit with no options/n 
+Following commands work:
+
+◦ echo with option -n
+
+◦ cd with only a relative or absolute path
+
+◦ pwd with no options
+
+◦ export with no options
+
+◦ unset with no options
+
+◦ env with no options or arguments
+
+◦ exit with no options
 
 You need to have the readline library installed on your system.
